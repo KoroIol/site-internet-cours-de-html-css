@@ -1,0 +1,87 @@
+*{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    text-align: center; /*centre le texte*/
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+/*fin de la partie header*/
+
+.description{ 
+    margin: 50px;
+    position:relative;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.602), rgba(0, 0, 0, 0.52)),
+    url(/image/setup.jpg) center/cover;
+    padding: 5%;
+}
+.tableau-style {
+    color: white;
+    border-collapse: collapse;
+    min-width: 400px;
+    width: auto;
+    box-shadow: 0 5px 50px white; /*pour eclairer en blanc style neon*/
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid white;
+}
+
+thead tr {
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
+
+tbody tr:last-of-type{
+    border-bottom: 2px white;
+}
+/*fin tableau et description*/
+
+.mail:hover{    /*pour changer l'aspect quand on passe dessus*/
+    color: grey;
+    font-weight: bold;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+.contact{
+    color: white;
+    text-align: center;
+}
+/*fin contact*/

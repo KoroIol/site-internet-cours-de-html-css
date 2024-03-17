@@ -1,0 +1,82 @@
+*{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    text-align: center; /*centre le texte*/
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+/*fin de la partie header*/
+
+.experiences{
+    background: linear-gradient(rgba(0, 0, 0, 0.602), rgba(0, 0, 0, 0.52)),
+    url(/image/imagefond2.jpg) center/cover;
+    padding-bottom: 5%;
+}
+
+.titreexperience{
+    text-align: center;
+    color: white;
+}
+
+.experiences h1{
+    text-align: center;
+}
+
+.exp{
+    margin-top: 5%;
+    margin-left: 23%; /*deux blocs vers la droite*/
+}
+
+.experiencetravail{
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.experiencetravail img{
+    margin-left: 43%;
+    width: 10%;
+    height: 20%;
+    border-radius: 30px;
+}
+
+/*fin experience*/
+
+.mail:hover{    /*pour changer l'aaspect lorsque l'on passe dessus*/
+    color: grey;
+    font-weight: bold;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+.contact{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+*{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    text-align: center; /*centre le texte*/
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+/*fin de la partie header*/
+
+.image{
+    width: 100%;
+
+}
+/*fin image de fond*/
+
+.accueil{
+    text-align: center;
+    color: white;
+}
+
+.parcours{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.parcoursgauche{
+    width: 60%;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+
+.parcoursimage{
+    margin-top: 2%;
+    float: right;
+}
+/*fin accueil*/
+
+.mail:hover{    /*pour changer l'aaspec*/
+    color: grey;
+    font-weight: bold;
+}
+
+.mail{
+    text-decoration: underline;
+}
+
+.contact{
+    color: white;
+    text-align: center;
+}
